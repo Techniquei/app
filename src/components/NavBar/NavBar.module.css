@@ -1,7 +1,19 @@
 .nav{
     grid-area: n;
     background-color: rgb(196, 175, 175);
+    padding: 10px;
   }
-  .item{
+  .item  a{
     color: white;
+    text-decoration: none;
+    transition: all .2s;
+  }
+  .item  a:hover{
+    color: rgb(236, 38, 38);
+  }
+
+  .item  a.activeLink{
+    font-weight: bold;
+    color: rgb(43, 45, 128);
+   
   }
